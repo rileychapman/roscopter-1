@@ -37,7 +37,7 @@ class MCN():
         self.buttons = data.buttons
         self.x = 1500-self.axes[0]*300
         self.y = 1500-self.axes[1]*300
-        self.z = 1000+(self.axes[3])*600
+        self.z = 1500+(self.axes[3])*500
 	self.yaw = 1500-self.axes[2]*300
 
     def fly(self):
